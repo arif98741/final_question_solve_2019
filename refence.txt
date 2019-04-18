@@ -1,0 +1,6 @@
+https://www.w3schools.com/php/php_cookies.asp
+https://stackoverflow.com/questions/504947/when-should-i-use-get-or-post-method-whats-the-difference-between-them
+https://www.google.com/search?ei=cKm4XLKEHuTiz7sPn-SI-Ag&q=what+is+cookie+in+php&oq=what+is+cookie+in+php&gs_l=psy-ab.3..0i7i30l4j0j0i8i7i30l3j0i8i30l2.76864.77909..78094...0.0..0.143.774.0j6......0....1..gws-wiz.......0i71.gtXVY79qnEU
+https://www.php.net/manual/en/language.types.resource.php
+https://www.google.com/search?q=what+is+object+in+php&oq=what+is+object+inphp&aqs=chrome.1.69i57j0l5.4904j0j4&sourceid=chrome&ie=UTF-8
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
