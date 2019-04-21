@@ -6,9 +6,9 @@ if (isset($_POST['update'])) {
 	$first_name = $_POST['first_name'];
 	$age = $_POST['age'];
 	$address = $_POST['address'];
-	$stmt = $con->query("update registration set first_name='$first_name',age='$age',address='$address' where id=1") or die mysqli_error($con)."at line number ".__LINE__;
+	$stmt = $con->query("update registration set first_name='$first_name',address='$address',age='$age' where id=1") or die (mysqli_error($con))."at line number ".__LINE__;
 	if ($stmt) {
-		echo "Data Updated"
+		echo "Data Updated";
 	}
 }
 
@@ -39,13 +39,11 @@ if ($stmt) {
 		<h1>Registration Form</h1>
 		<form action="" method="post">
 			<label for="">First Name</label><br>
-			<input type="text" name="first_name" value="<?php $data['0']['first_name']; ?>"><br>
+			<input type="text" value="<?php echo $data['first_name']; ?>" name="first_name"><br>
 			<label for="">Last Name</label><br>
-			<input type="text" name="last_name"  value="<?php $data['0']['last_name']; ?>"><br>
+			<input type="text" value="<?php echo $data['last_name']; ?>" name="last_name"><br>
 			<label for="">Age</label><br>
-			<input type="number" name="age"  value="<?php $data['0']['age']; ?>"><br>
-			<label for="">Phone</label><br>
-			<input type="text" name="phone"  value="<?php $data['0']['phone']; ?>"><br>
+			<input type="number" name="age" value="<?php echo $data['age']; ?>" ><br>
 			<button type="submit">Save</button>
 		</form>
 	</div>
