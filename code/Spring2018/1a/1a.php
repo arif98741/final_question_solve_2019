@@ -1,6 +1,18 @@
 <?php require 'connection.php'; ?>
 <?php
-//for update
+//for registration
+if (isset($_POST['register'])) {
+	
+	$first_name = $_POST['first_name'];
+	$age = $_POST['age'];
+	$address = $_POST['address'];
+
+	$stmt = $con->query("insert into registration (first_name,age,address) values('$first_name','$last_name','$age')") or die mysqli_error($con)."at line number ".__LINE__;
+	if ($stmt) {
+		echo "Data Inserted"
+	}
+}
+
 if (isset($_POST['update'])) {
 	
 	$first_name = $_POST['first_name'];
