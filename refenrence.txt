@@ -14,3 +14,4 @@ https://www.php.net/manual/en/language.oop5.inheritance.php
 https://www.interserver.net/tips/kb/mvc-advantages-disadvantages-mvc/
 https://www.quora.com/What-is-the-difference-between-an-object-and-resources-in-PHP-1
 https://www.geeksforgeeks.org/php-variables/
+https://stackoverflow.com/questions/2558559/what-is-abstract-class-in-php

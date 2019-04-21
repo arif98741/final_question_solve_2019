@@ -70,3 +70,15 @@ The main difference between a session and a cookie is that session data is store
 Sessions are more secure than cookies as it is stored in server. Cookie can be turned off from browser.
 
 Data stored in cookie can be stored for months or years, depending on the life span of the cookie. But the data in the session is lost when the web browser is closed.
+
+An abstract class is a class that contains at least one abstract method, which is a method without any actual code in it, just the name and the parameters, and that has been marked as "abstract".
+
+Well, there are two types of Polymorphism as stated below:
+
+Static Polymorphism (Early binding)
+Dynamic Polymorphism (Late binding)
+Static Polymorphism(Early Binding):
+
+Static Polymorphism is also know as Early Binding and Compile time Polymorphism. Method Overloading and Operator Overloading are examples of the same.
+
+It is known as Early Binding because the compiler is aware of the functions with same name and also which overloaded function is tobe called is known at compile time.

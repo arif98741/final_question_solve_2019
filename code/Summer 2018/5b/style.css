@@ -1,0 +1,95 @@
+
+*{margin: 0; padding: 0}
+.wrapper{
+	width: 960px;
+	margin: 50px auto;
+	border: 1px solid #000;
+}
+header{
+	min-height: 50px;
+	border-bottom: 1px solid #000;
+}
+.logo{
+	width: 40%;
+	float: left;
+	padding: 10px;
+
+}
+.search{
+	width: 56%;
+	float: right;
+	margin-top: 20px;
+
+}
+
+
+.content{
+	min-height: 302px;
+	border-bottom: 1px solid #000;
+}
+.left{
+	width: 20%;
+	float: left;
+	border-right: 1px solid #000;
+	min-height: 302px;	
+}
+.left ul.menu{
+	list-style: none;
+	min-height: 100px;
+	padding: 10px;
+}
+.left ul li{
+	border: 1px solid #000;
+	padding: 4px;
+}
+.left ul li a{
+	text-decoration: none;
+	padding: 0px 10px;
+	color: #000;
+}
+.middle{
+	width: 50%;
+	float: left;
+	padding: 3px;
+	border-right: 1px solid #000;
+	min-height: 302px;
+}
+form{
+	width: 90%;
+	margin: 0px auto;
+}
+input[type=text] {
+	width: 200px;
+}
+input[type=password]{
+	margin-top: 2px;
+	width: 200px;
+}
+button{
+	margin-left: 400px;
+}
+.right{
+	width: 25%;
+	float: right;
+}
+.right-menu{
+	list-style: none;
+	padding: 5px;
+	width: 98px;
+}
+.right-menu li{
+	border: 1px solid #000;
+	padding: 5px;
+}
+.right-menu li a{
+	text-decoration: none;
+	color: #000;
+}
+.center{
+	text-align: center;
+}
+footer{
+	text-align: center;
+	min-height: 50px;
+	font-size: 20px;
+}
