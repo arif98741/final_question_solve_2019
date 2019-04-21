@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="">
+		<p>Width <input type="text" id="width">
+			height <input type="text" id="height">
+			Area <input type="text" id="area"><br><br>
+			<input type="button" onclick="calculateArea()" value="Calculate">
+		</p>
+	</form>
+
+	<script>
+		function calculateArea() {
+			var width  = parseInt(document.getElementById('width').value);
+			var height = parseInt(document.getElementById('height').value);
+			var area   = width * height;
+			document.getElementById('area').value = area;
+
+		}
+	</script>
+</body>
+</html>

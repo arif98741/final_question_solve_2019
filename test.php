@@ -82,3 +82,38 @@ Static Polymorphism(Early Binding):
 Static Polymorphism is also know as Early Binding and Compile time Polymorphism. Method Overloading and Operator Overloading are examples of the same.
 
 It is known as Early Binding because the compiler is aware of the functions with same name and also which overloaded function is tobe called is known at compile time.
+
+$_GET is an array of variables passed to the current script via the URL parameters. Information sent from a form with the GET method is visible to everyone (all variable names and values are displayed in the URL). GET also has limits on the amount of information to send. The limitation is about 2000 characters. However, because the variables are displayed in the URL, it is possible to bookmark the page. This can be useful in some cases.
+
+$_POST is an array of variables passed to the current script via the HTTP POST method. Information sent from a form with the POST method is invisible to others (all names/values are embedded within the body of the HTTP request) and has no limits on the amount of information to send.
+
+Moreover POST supports advanced functionality such as support for multi-part binary input while uploading files to server.
+
+A cookie is often used to identify a user. A cookie is a small file that the server embeds on the user's computer. Each time the same computer requests a page with a browser, it will send the cookie too. With PHP, you can both create and retrieve cookie values.
+<?php
+$cookie_name = "user";
+$cookie_value = "John Doe";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+?>
+setcookie(name, value, expire, path, domain, secure, httponly);
+
+The difference between include and require arises when the file being included cannot be found: include will emit a warning (E_WARNING) and the script will continue, whereas require will emit a fatal error (E_COMPILE_ERROR) and halt the script. If the file being included is critical to the rest of the script running correctly then you need to use require.
+
+
+<?php 
+foreach (array as $value){ 
+  //code to be executed; 
+} 
+?>
+<?php
+$salary[]=2000;
+$salary[]=3000;
+$salary[]=5000;
+
+foreach($salary as $value){
+  echo "Salary: $value<br>";
+}
+?>
+Salary: 2000
+Salary: 3000
+Salary: 5000
